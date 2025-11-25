@@ -1,2 +1,2 @@
-# ModuleShawdowrocket
-Some gooning module,LOL
+# Locket Goon
+Locket gooning module,LOL
