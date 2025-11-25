@@ -1,0 +1,14 @@
+#!name=Locket Goon🪙
+#!desc=Crack Locket Gold qua Shadowrock.Yep,chỉ có thế thôi🤑🤑🤑 
+#!version= 1
+
+[General]
+user-agent = Locket/1.0.0 (iPhone; iOS 26; Scale/3.00)
+
+[Script]
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/xuanbachkat13/ModuleShawdowrocket/refs/heads/main/locktgoonv1.js, requires-body=true, max-size=-1, timeout=120
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/xuanbachkat13/ModuleShawdowrocket/refs/heads/main/header.js, timeout=120
+
+[MITM]
+hostname = api.revenuecat.com, raw.githubusercontent.com
+# Bản quyền:Ko có:)))
